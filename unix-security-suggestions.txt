@@ -1,0 +1,11 @@
+- iptables to block brute force SSH attempts
+- use logcheck and chkrootkit
+- integrit and/or tripwire
+- consider removing PHP
+- consider turning off Apache runnable extensions e.g. .cgi, .php, .php5
+-http://modsecurity.org to filter web attacks
+-http://ossec.net to monitor logs and file changes
+-SeLinux enabled on all our Linux systems
+-systrace on all our BSD boxes
+-http://sucuri.net to monitor our DNS, Whois and site.
+
